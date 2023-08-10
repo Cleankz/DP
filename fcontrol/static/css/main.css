@@ -1,0 +1,139 @@
+@import url("fonts.css");
+body{
+	font-family:inter;
+	margin:0;  /* поля*/
+	padding: 0;/*отступы*/
+	background-color: F9F9F9;
+}
+
+.clear{
+	clear:both;
+}
+
+#topmenu{
+	background:url("../images/logo1.png") no-repeat 1% top;
+	height: 100px;
+	border-bottom: 1px solid #8C0C04
+
+}
+#acc_topmenu{
+	background:url("../images/logo1.png") no-repeat 1% top;
+	height: 100px;
+/* 	border-bottom: 1px solid #8C0C04 */
+
+}
+#topmenu ul{
+	float: right;
+	list-style: none;
+	margin:0; 
+
+}
+#topmenu li{
+	float: left;
+
+}
+#topmenu a{
+	background: url("../images/home.png") no-repeat center 20%;
+	color: #212121;
+	display: inline-block;
+	height: 30px;
+	padding-top:  50px;
+	text-decoration: none;
+	text-align: center;
+	width: 121.5px;
+}
+#topmenu a:hover{
+	background-position: center 22%;
+	border-bottom: 4px solid #8C0C04;
+	border-left: 1px solid #8C0C04;
+	border-right: 1px solid #8C0C04;
+	height:26px;
+	width: 120px;
+}
+#topmenu #logout a{
+	background-image: url("../images/logout.png");
+}
+#picture {
+	margin-left: 24px;
+	margin-right: 0px;
+	padding: 0px;
+	}
+#registration {
+	float:right; /* Выравнивание по правому краю */
+	margin-right: 5px;
+	text-align: left;
+	height:448px;
+	width: 750px;
+}
+.form_auth_button {
+	background-color: #8C0C04;
+	color: #fff;
+	border-radius: 8px;
+	width: 212px;
+	height: 60px;
+	border-color: #8C0C04;
+	padding: 20px, 24px, 20px, 24px;
+	box-shadow: none;
+}
+
+.form_auth_style {
+	width: 448px;
+	height: 136px;
+}
+p.form_auth_block_head_text {
+	font-size: 64px;
+	padding: 0px;
+	margin: 0px;
+
+}
+p.form_auth_block_head_text_registration {
+	font-size: 24px;
+	padding-bottom: 80px;
+	margin-bottom: 0px;
+}
+input[class=input_first_name]{
+	display: block;
+	width:212px;
+	height: 60px;
+	border-radius: 8px;
+	background-color: DEDCD9;
+	border:none;
+	box-shadow: none;
+	float: right;
+	padding-left:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 12 24;
+
+}
+input[class=input_last_name]{
+	display: block;
+	width:212px;
+	height: 60px;
+	border-radius: 8px;
+	background-color: DEDCD9;
+	border:none;
+	box-shadow: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 12 24;
+}
+input[type=email]{
+	display: block;
+	width:448px;
+	height: 60px;
+	border-radius: 8px;
+	background-color: DEDCD9;
+	border:none;
+	box-shadow: none;
+	padding: 12 24;
+}
+input[type=password]{
+	display: block;
+	width:448px;
+	height: 60px;
+	border-radius: 8px;
+	background-color: DEDCD9;
+	border:none;
+	padding: 12 24;
+}
